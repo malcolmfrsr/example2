@@ -3,11 +3,11 @@ import time
 import redis
 from flask import Flask
 
-# got to triggfer that version.
+# got to triggfer that versiddddddddddon.
 app = Flask(__name__)
 cache = redis.Redis(host='redis', port=6379)
 
-# whatffff
+# whatfffdddddddddddf
 def get_hit_count():
     retries = 5
     while True:
