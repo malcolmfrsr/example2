@@ -3,7 +3,7 @@ import time
 import redis
 from flask import Flask
 
-# got to triggfer that version ffff2f
+# got to triggfer that version.
 app = Flask(__name__)
 cache = redis.Redis(host='redis', port=6379)
 
